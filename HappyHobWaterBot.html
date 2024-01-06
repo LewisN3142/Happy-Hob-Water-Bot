@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>HobWaterBot</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='icon' href='hhicon.ico' type='image/x-icon'/>
+    </head>
+    <body>
+        <audio src="HobWaterBot.mp3" id="my_audio" controls="controls"></audio>
+        <img src="HappyHob.jpg" alt="Hob Water Bot" id="my_image" style="width:945px;height:551px;display:none" />
+        <script type="text/javascript">
+            document.getElementById("my_image").style.display = "block";
+            setInterval(function(){
+                document.getElementById("my_audio").play();
+                console.log('HobWaterBot now playing audio');
+            },3600000);
+        </script>
+    </body>
+</html>
