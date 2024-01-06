@@ -1,2 +1,4 @@
-# Happy-Hob-Water-Bot
- A small HTML webpage I coded in 2018 , set up in order to remind me to drink water regularly while revising for undergraduate exams.
+# Happy Hob Water Bot
+A small HTML webpage I coded in 2018 , set up in order to remind me to drink water regularly while revising for undergraduate exams. The page uses a dozen or so lines of HTML and JavaScript and simply displays an image and media console which, inless prematurely pressed, operates on a timer of an hour (which can be set from within the JavaScript). As you can see, the programme is not especially elaborate, does not use CSS styling, or follow modern web standards, but was coded as a bare minimum application during a brief break from studying, in order to keep my mind fresh and active. 
+
+The styling of the application is themed after the late Stay_Hydrated_Bot that appeared on twitch streams around that time and features the face and voice of the streamer TheHappyHob, the first person to complete the God Run of Soulsborne games (at the time all three Dark Souls games, Demons' Souls, and Bloodborne). The audio is a clip of him complaining that the Stay_Hydrated_Bot reminds people to drink too often. The application is not currently hosted anywhere, but I may add some CSS styling, sanitise the code a bit, and host it without SEO from my main pages site soon.
